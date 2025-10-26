@@ -16,19 +16,20 @@ body {
 }
 
 #logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
+    vertical-align: middle;
 }
 
 .header-link {
     color: #cec0c0;
     text-decoration: none;
-    margin: 0 15px;
-    font-size: 12px;
-    margin-top: 60px;
-    margin-bottom: auto;
+    margin-left: 15px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#main-space {
+    display: flex;
+    height: calc(100vh - 90px);
 }
 
 #content {
@@ -40,15 +41,16 @@ body {
 #menu {
     background-color: #3a3a3a;
     padding: 10px;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+    width: 500px;
+    height: calc(100vh - 90px);
 }
 
 .menu-item {
+    margin-bottom: 10px;
     color: white;
     text-decoration: none;
     font-weight: bold;
+    
 }
 
 .section {
