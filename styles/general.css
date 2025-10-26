@@ -27,34 +27,66 @@ body {
     display: inline-block;
 }
 
+.header-link-at {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 20px;
+    display: inline-block;
+}
+
 #main-space {
     display: flex;
-    height: calc(100vh - 90px);
+}
+
+#main-space-tab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
 #content {
     padding: 20px;
     color: white;
-    
+    flex: 1;
+}
+
+#sobre-tab {
+    width: 585px;
 }
 
 #menu {
     background-color: #3a3a3a;
-    padding: 10px;
-    width: 500px;
-    height: calc(100vh - 90px);
+    padding: 20px;
+    width: 200px;
+}
+
+.img {
+    margin-left: 15px;
+}
+
+.link-externo {
+    font-style: italic;
+    font-weight: bold;
+    color: white;
 }
 
 .menu-item {
-    margin-bottom: 10px;
+    display: block;
+    margin-bottom: 15px;
     color: white;
     text-decoration: none;
-    font-weight: bold;
-    
-}
+    font-weight: bold;}
 
 .section {
     margin-bottom: 30px;
+}
+
+#tab-title {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .section-title {
@@ -68,7 +100,6 @@ body {
     color: white;
     text-align: center;
     padding: 10px;
-    width: 100%;
     bottom: 0;
     height: 30px;
 }
